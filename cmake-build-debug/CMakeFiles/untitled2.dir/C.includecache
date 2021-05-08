@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Trall/CLionProjects/untitled2/src/graph.h
+stddef.h
+-
+
+C:/Users/Trall/CLionProjects/untitled2/src/main.c
+stdio.h
+-
+stdlib.h
+-
+graph.h
+C:/Users/Trall/CLionProjects/untitled2/src/graph.h
+../test/tests.h
+C:/Users/Trall/CLionProjects/untitled2/test/tests.h
+
+C:/Users/Trall/CLionProjects/untitled2/test/tests.c
+cassert
+-
+stdio.h
+-
+../src/graph.h
+C:/Users/Trall/CLionProjects/untitled2/src/graph.h
+
+C:/Users/Trall/CLionProjects/untitled2/test/tests.h
+cassert
+-
+stdio.h
+-
+
