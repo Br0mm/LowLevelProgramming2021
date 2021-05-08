@@ -1,6 +1,6 @@
-#include <cassert>
+#include <assert.h>
 #include <stdio.h>
-#include "../src/graph.h"
+#include "../include/graph.h"
 
 
 void testBuildGraph() {

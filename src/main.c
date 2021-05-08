@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "graph.h"
-#include "../test/tests.h"
+#include "../include/graph.h"
+#include "../include/tests.h"
 
 /*Демонстрационная программа создаёт граф размера N (задается первым аргументом конмадной строки)
  * затем прочтём K (второй аргумент) пар переходов между вершинами из файла edges.txt (3 аргумент)

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "graph.h"
+#include "../include/graph.h"
 
 graph createGraph(int size) {
     graph newGraph;
