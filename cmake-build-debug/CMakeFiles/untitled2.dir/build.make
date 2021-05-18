@@ -98,37 +98,37 @@ CMakeFiles\untitled2.dir\src\graph.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled2.dir\src\graph.c.s /c C:\Users\Trall\CLionProjects\untitled2\src\graph.c
 <<
 
-CMakeFiles\untitled2.dir\test\tests.c.obj: CMakeFiles\untitled2.dir\flags.make
-CMakeFiles\untitled2.dir\test\tests.c.obj: ..\test\tests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Trall\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled2.dir/test/tests.c.obj"
+CMakeFiles\untitled2.dir\src\tests.c.obj: CMakeFiles\untitled2.dir\flags.make
+CMakeFiles\untitled2.dir\src\tests.c.obj: ..\src\tests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Trall\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled2.dir/src/tests.c.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\untitled2.dir\test\tests.c.obj /FdCMakeFiles\untitled2.dir\ /FS -c C:\Users\Trall\CLionProjects\untitled2\test\tests.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\untitled2.dir\src\tests.c.obj /FdCMakeFiles\untitled2.dir\ /FS -c C:\Users\Trall\CLionProjects\untitled2\src\tests.c
 <<
 
-CMakeFiles\untitled2.dir\test\tests.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/test/tests.c.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled2.dir\test\tests.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Trall\CLionProjects\untitled2\test\tests.c
+CMakeFiles\untitled2.dir\src\tests.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/src/tests.c.i"
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled2.dir\src\tests.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Trall\CLionProjects\untitled2\src\tests.c
 <<
 
-CMakeFiles\untitled2.dir\test\tests.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/test/tests.c.s"
+CMakeFiles\untitled2.dir\src\tests.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/src/tests.c.s"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled2.dir\test\tests.c.s /c C:\Users\Trall\CLionProjects\untitled2\test\tests.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled2.dir\src\tests.c.s /c C:\Users\Trall\CLionProjects\untitled2\src\tests.c
 <<
 
 # Object files for target untitled2
 untitled2_OBJECTS = \
 "CMakeFiles\untitled2.dir\src\main.c.obj" \
 "CMakeFiles\untitled2.dir\src\graph.c.obj" \
-"CMakeFiles\untitled2.dir\test\tests.c.obj"
+"CMakeFiles\untitled2.dir\src\tests.c.obj"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
 
 untitled2.exe: CMakeFiles\untitled2.dir\src\main.c.obj
 untitled2.exe: CMakeFiles\untitled2.dir\src\graph.c.obj
-untitled2.exe: CMakeFiles\untitled2.dir\test\tests.c.obj
+untitled2.exe: CMakeFiles\untitled2.dir\src\tests.c.obj
 untitled2.exe: CMakeFiles\untitled2.dir\build.make
 untitled2.exe: CMakeFiles\untitled2.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Trall\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable untitled2.exe"

@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Trall/CLionProjects/untitled2/src/graph.c" "C:/Users/Trall/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/src/graph.c.obj"
   "C:/Users/Trall/CLionProjects/untitled2/src/main.c" "C:/Users/Trall/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/src/main.c.obj"
-  "C:/Users/Trall/CLionProjects/untitled2/test/tests.c" "C:/Users/Trall/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/test/tests.c.obj"
+  "C:/Users/Trall/CLionProjects/untitled2/src/tests.c" "C:/Users/Trall/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/src/tests.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

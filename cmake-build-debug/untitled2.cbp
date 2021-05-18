@@ -82,19 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/src/graph.c">
+		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/include/graph.h">
 			<Option target="untitled2"/>
 		</Unit>
-		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/src/graph.h">
+		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/include/tests.h">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/src/graph.c">
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/src/main.c">
 			<Option target="untitled2"/>
 		</Unit>
-		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/test/tests.c">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/test/tests.h">
+		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/src/tests.c">
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="C:/Users/Trall/CLionProjects/untitled2/CMakeLists.txt">

@@ -30,13 +30,17 @@ void deinitializeMatrix(int **graph, int size) {
 }
 
 void addEdge(int vertex1, int vertex2, graph currentGraph) {
-    currentGraph->matrix[vertex1][vertex2] = 1;
-    currentGraph->matrix[vertex2][vertex1] = 1;
+    if ((vertex2 < currentGraph->size) && (vertex1 < currentGraph->size)) {
+        currentGraph->matrix[vertex1][vertex2] = 1;
+        currentGraph->matrix[vertex2][vertex1] = 1;
+    }
 }
 
 void removeEdge(int vertex1, int vertex2, graph currentGraph) {
-    currentGraph->matrix[vertex1][vertex2] = 0;
-    currentGraph->matrix[vertex2][vertex1] = 0;
+    if ((vertex2 < currentGraph->size) && (vertex1 < currentGraph->size)) {
+        currentGraph->matrix[vertex1][vertex2] = 0;
+        currentGraph->matrix[vertex2][vertex1] = 0;
+    }
 }
 
 void addVertex(graph currentGraph) {

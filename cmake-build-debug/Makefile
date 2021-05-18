@@ -180,32 +180,32 @@ src\main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled2.dir\src\main.c.s
 .PHONY : src\main.c.s
 
-test\tests.obj: test\tests.c.obj
+src\tests.obj: src\tests.c.obj
 
-.PHONY : test\tests.obj
+.PHONY : src\tests.obj
 
 # target to build an object file
-test\tests.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled2.dir\test\tests.c.obj
-.PHONY : test\tests.c.obj
+src\tests.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled2.dir\src\tests.c.obj
+.PHONY : src\tests.c.obj
 
-test\tests.i: test\tests.c.i
+src\tests.i: src\tests.c.i
 
-.PHONY : test\tests.i
+.PHONY : src\tests.i
 
 # target to preprocess a source file
-test\tests.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled2.dir\test\tests.c.i
-.PHONY : test\tests.c.i
+src\tests.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled2.dir\src\tests.c.i
+.PHONY : src\tests.c.i
 
-test\tests.s: test\tests.c.s
+src\tests.s: src\tests.c.s
 
-.PHONY : test\tests.s
+.PHONY : src\tests.s
 
 # target to generate assembly for a file
-test\tests.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled2.dir\test\tests.c.s
-.PHONY : test\tests.c.s
+src\tests.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled2.dir\src\tests.c.s
+.PHONY : src\tests.c.s
 
 # Help Target
 help:
@@ -222,9 +222,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... test/tests.obj
-	@echo ... test/tests.i
-	@echo ... test/tests.s
+	@echo ... src/tests.obj
+	@echo ... src/tests.i
+	@echo ... src/tests.s
 .PHONY : help
 
 

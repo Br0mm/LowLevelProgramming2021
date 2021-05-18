@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled2.dir/src/graph.c.obj"
   "CMakeFiles/untitled2.dir/src/main.c.obj"
-  "CMakeFiles/untitled2.dir/test/tests.c.obj"
+  "CMakeFiles/untitled2.dir/src/tests.c.obj"
   "untitled2.exe"
   "untitled2.exe.manifest"
   "untitled2.lib"
