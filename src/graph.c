@@ -9,7 +9,7 @@ graph createGraph(int size) {
     newGraph->matrix = (int **)malloc(size*sizeof(int *));
     for(int i = 0; i < size; i++)
     {
-        newGraph->matrix[i] = (int *)malloc(size*sizeof(int *));
+        newGraph->matrix[i] = (int *)malloc(size*sizeof(int));
     }
 
     for (int i = 0; i < size; i++)

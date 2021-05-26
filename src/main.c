@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     sscanf(argv[2], "%d", &K);
     K *= 2;
 
-    int *numbers = (int *)malloc(K*sizeof(int *));
+    int *numbers = (int *)malloc(K*sizeof(int));
     FILE *edgesFile;
     FILE *outFile;
 
